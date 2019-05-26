@@ -13,7 +13,7 @@ tags:
 
 &emsp;使用gihub pages + jekyll搭建自己的个人博客，里面的博文是使用markdown的格式进行编辑，于是学习使用markdown编辑器，我也不知道那个编辑器好，就在度娘上面找一个帖子看大家都使用什么编辑器，在线的经常因为自己的网络不好，感觉使用起来很费力，看了atom的介绍觉得插件丰富、可预览、还能生成pdf、界面也符合我的审美、可使用git、github、免费等，感觉很方便。
 # 安装atom
-&emsp;直接去atom官网下载安装即可，地址：[https://atom.io]([简书](http://jianshu.com)  
+&emsp;直接去atom官网下载安装即可，地址：[https://atom.io](https://atom.io)  
 &emsp;安装中文支持，setting->install->simplified-chinese-menu
 
 # markdown编写和预览
