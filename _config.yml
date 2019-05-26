@@ -1,32 +1,27 @@
-# Site settings
+# 主页
 title: 景山的博客
 SEOTitle: 景山的博客 | Jingshan Blog
 header-img: img/post-bg-desk.jpg
 email: yjs642884020@163.com
-description: "就算行尸走肉, 也要灵活跳动, 工作和生活, 一个也不能落下. "
+description: "工作和生活, 一个也不能落下. "
 keyword: "景山, 博客, Blog"
-url: "http://YuanJingshan.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/YuanJingshan/YuanJingshan.github.io.git" # you code repository
+url: "http://YuanJingshan.github.io"
+baseurl: ""
+github_repo: "https://github.com/YuanJingshan/YuanJingshan.github.io.git"
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/person.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+# 侧边栏
+sidebar: true  # 是否开启侧边栏
+sidebar-about-description: "就算行尸走肉, 也要灵活跳动!"
+sidebar-avatar: /img/person.jpg
 
-
-
-# SNS settings
+# 社交账号
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+zhihu_username:     YuanJingshan
+github_username:    YuanJingshan
+jianshu_username:   YuanJingshan
+#weibo_username:     qiubaiying
+#facebook_username:  baiying.qiu.7
 #twitter_username:   qiubaiying
-
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -35,14 +30,9 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
-
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -51,64 +41,45 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+input: GFM                            # use Github Flavored Markdown !important
 
-
-
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
-
-# Gitalk
+# 评论系统 Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 2a83ef1129c767be9f26                            #生成的clientID
+  clientSecret: 281c60700ea86df1e3772069139c96d3d536ca6a    #生成的clientSecret
+  repo: YuanJingshan.github.io    #仓库名称
+  owner: YuanJingshan    #github用户名
+  admin: YuanJingshan
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
-
-# 统计
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
+# 统计 Baidu Analytics/Google Analytics
+ba_track_id: a0cfa1b08a50edaadb4e588cf8b332bb
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
-
-
+# ga_track_id: 'UA-90855596-1' # Format: UA-xxxxxx-xx
+# ga_domain: yuanjingshan.cn  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
-
-
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # Friends
 friends: [
-    {
-        title: "知乎",
-        href: "https://www.zhihu.com/"
-    },{
-        title: "简书",
-        href: "https://www.jianshu.com/"
-    },{
-        title: "github",
-        href: "https://github.com/"
-    },{
-        title: "csdn",
-        href: "https://www.csdn.net/"
-    }
+{
+  title: "知乎",
+  href: "https://www.zhihu.com/"
+},{
+  title: "简书",
+  href: "https://www.jianshu.com/"
+},{
+  title: "github",
+  href: "https://github.com/"
+},{
+  title: "csdn",
+  href: "https://www.csdn.net/"
+}
 ]
