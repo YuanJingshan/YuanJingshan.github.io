@@ -7,7 +7,7 @@ description: "就算行尸走肉，也要灵活跳动！工作和生活，一个
 keyword: "景山, 博客, Blog"
 url: "http://YuanJingshan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/YuanJingshan/YuanJingshan.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
