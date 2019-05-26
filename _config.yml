@@ -11,7 +11,7 @@ github_repo: "https://github.com/YuanJingshan/YuanJingshan.github.io.git"
 
 # 侧边栏
 sidebar: true  # 是否开启侧边栏
-sidebar-about-description: "就算行尸走肉, 也要灵活跳动!"
+sidebar-about-description: "就算行尸走肉, 也要灵魂跳动!"
 sidebar-avatar: /img/person.jpg
 
 # 社交账号
@@ -48,7 +48,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 2a83ef1129c767be9f26                            #生成的clientID
   clientSecret: 281c60700ea86df1e3772069139c96d3d536ca6a    #生成的clientSecret
-  repo: YuanJingshan.github.io    #仓库名称
+  repo: YuanJingshan.github.io   #仓库名称
   owner: YuanJingshan    #github用户名
   admin: YuanJingshan
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
