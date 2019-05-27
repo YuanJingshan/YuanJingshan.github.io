@@ -19,7 +19,7 @@ tags:
 # markdown编写和预览
 &emsp;Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML标记语言来说，Markdown可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。  
 &emsp;使用快捷键ctrl + shif + m则可打开markdown的预览界面。
-![blockchain](../img/post/post-markdown-pages.png "区块链")
+![](/img/post/post-markdown-pages.png "预览效果")
 
 # 常用快捷键
 &emsp;Atom设置选项 keybindings 中列举了相当长的一份关于快捷键的绑定列表，你也可以自定义快捷键的配置文件，有相同的快捷键则会覆盖掉原有的，使用你自己设定的。  
