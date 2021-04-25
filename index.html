@@ -19,7 +19,7 @@ description: "今天应该完成的事没有做，明天再早也是耽误. "
         </div>
     </a>
     <p class="post-meta">
-        {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "+%Y-%m-%d" }}
+        {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} 创建于 {{ post.date | date: "%Y-%m-%d" }}
     </p>
 </div>
 <hr>
